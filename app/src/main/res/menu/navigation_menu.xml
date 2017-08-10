@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/nav_home"
+    android:icon="@mipmap/ic_home_black_24dp"
+    android:title="Home">
+</item>
+    <item android:id="@+id/nav_articles"
+        android:icon="@mipmap/ic_class_black_24dp"
+        android:title="Free Articles">
+    </item>
+       <item android:id="@+id/nav_invite_friends"
+        android:icon="@mipmap/ic_supervisor_account_black_24dp"
+        android:title="Invite Friends">
+    </item>
+
+    <item android:id="@+id/nav_Feedback"
+        android:icon="@mipmap/ic_feedback_black_24dp"
+        android:title="Feedback">
+    </item>
+
+
+    <item android:id="@+id/nav_Share"
+        android:icon="@mipmap/ic_share_black_24dp"
+        android:title="Share the App">
+    </item>
+
+    <item android:id="@+id/nav_rate_us"
+        android:icon="@mipmap/ic_star_rate_black_18dp"
+        android:title="Rate the App">
+    </item>
+
+    <item android:id="@+id/logout"
+        android:icon="@mipmap/ic_power_settings_new_black_24dp"
+        android:title="Logout">
+    </item>
+
+</menu>
