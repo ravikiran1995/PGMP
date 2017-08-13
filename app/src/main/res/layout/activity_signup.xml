@@ -15,11 +15,12 @@
 
 
         <ImageView
-            android:layout_width="@dimen/logo_w_h"
-            android:layout_height="@dimen/logo_w_h"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
             android:layout_gravity="center_horizontal"
             android:layout_marginBottom="30dp"
-            android:src="@mipmap/ic_launcher" />
+            android:src="@drawable/aceprologo"
+            tools:ignore="ContentDescription" />
 
         <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
@@ -32,7 +33,6 @@
                 android:hint="@string/email"
                 android:inputType="textEmailAddress"
                 android:maxLines="1"
-                android:singleLine="true"
                 android:textColor="@android:color/white" />
 
         </android.support.design.widget.TextInputLayout>
@@ -51,7 +51,6 @@
                 android:imeOptions="actionUnspecified"
                 android:inputType="textPassword"
                 android:maxLines="1"
-                android:singleLine="true"
                 android:textColor="@android:color/white" />
 
         </android.support.design.widget.TextInputLayout>
@@ -88,7 +87,7 @@
             android:text="@string/btn_link_to_login"
             android:textAllCaps="false"
             android:textColor="@color/white"
-            android:textSize="15dp" />
+            android:textSize="15sp" />
     </LinearLayout>
 
     <ProgressBar
