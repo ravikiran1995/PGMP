@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -14,5 +14,7 @@
         tools:layout_editor_absoluteX="86dp"
         android:textSize="36sp"
         tools:layout_editor_absoluteY="234dp"
-        tools:ignore="HardcodedText,MissingConstraints" />
-</android.support.constraint.ConstraintLayout>
+        tools:ignore="HardcodedText,MissingConstraints"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
