@@ -108,7 +108,7 @@ public class QuizActivity extends AppCompatActivity {
                     quesNo--;
                     showQues();
                 }
-                if(quesNo<10){
+                if(quesNo<50){
                     next.setText("Next");
                 }
 
@@ -150,17 +150,17 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 radioGroup.clearCheck();
-                if (quesNo < 10) {
+                if (quesNo < 50) {
                     quesNo++;
                     next.setText("Next");
                     showQues();
                 }
-                if (quesNo == 10) {
+                if (quesNo == 50) {
                     next.setText("submit");
                     quesNo++;
                     return;
                 }
-                if (quesNo > 10) {
+                if (quesNo > 50) {
                     next.setText("Submit");
 
                     score = 0;
