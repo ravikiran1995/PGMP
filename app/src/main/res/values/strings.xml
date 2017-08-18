@@ -37,4 +37,26 @@
     <string name="open" />
     <string name="close" />
 
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="HarishLakkavali">
+           " \n Harish Lakkavalli is an experienced manager in the portfolio, program and project management domain having worked in multi-disciplinary domains.\n"
+              "\n With over 13+ year experience in portfolio, program and project management of Information Technology systems and with overall 24+ year experience in Avionics, Mobile communication, Solar power industry and Project/Program management training, Harish has a proven track record of training PgMP/PMP aspirants worldwide, delivering programs and projects to the customer satisfaction through a multi-site, cross-cultural teams in a fast changing global development environment.\n"
+                "\n With his entrepreneurship and intrapreneurship skills, he has built credibility, developed rapport and established good working relationship with stakeholders in a multi-site, cross-cultural global development environment.  He was part of the team that built India regional development center of the fortune 500 companies - Sun microsystems and Infineon technologies.   He is also part of Avi Solar Energy Pvt Ltd, (www.avisolar.com), one of the leading solar power solution consultancy service providers in India.\n"
+                "\n He is a certified SEI-CMM level assessor and with a good knowledge of ISO standards and was responsible for establishing governance structure for effective off-shore development center management for leading MNCs in India.\n"
+
+                "\n As a certified project (PMP) and program management professional (PgMP) from Project Management Institute PMI USA, he has trained PgMP and PMP aspirants worldwide, leading individuals to achieve PMI certification.  With his rich expertise in customer engagement from Pre-sales, proposal preparation, delivery management and end-to-end product development life cycle, and clear thoughts on management, his trainees get benefit from numerous examples leading to building a solid foundation of management concepts.  He is an active member of PMI chapter, Bangalore and other professional associations.  He is also an active contributor to the Linked-in professional forum on PMI and PgMP helping those who seek guidance on the PMI certifications.\n"
+</string>
+    <string name="HarishContact">
+    <b>CONTACTS\n\n</b>
+    "Phone: +91 80 26720968\n"
+    "Handset: +91 984 5546953\n"
+    "Email: harishlr@aceproconsulting.com, \n support@aceproconsulting.com\n"
+    "Skype:harishlr\n"
+</string>
+    <string name="quit">Quit</string>
+    <string name="next">next</string>
+    <string name="rationale">rationale</string>
+    <string name="previous">previous</string>
+
 </resources>

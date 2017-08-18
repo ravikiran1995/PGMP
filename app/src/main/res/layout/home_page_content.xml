@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@color/colorAccent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical">
+
+
+    <TextView
+   android:textAlignment="center"
+        android:id="@+id/tv_practise_tests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Practise Test"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_register"
+        android:textSize="24sp"
+        android:onClick="practise_test"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:textAlignment="center"
+
+        android:id="@+id/tv_quiz_tests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Quiz"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_register"
+        android:textSize="24sp"
+        android:textStyle="normal|italic"
+        android:onClick="quiz_test"/>
+
+
+    <TextView
+        android:onClick="free_test"
+        android:textAlignment="center"
+        android:id="@+id/tv_free_tests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Free Test"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_register"
+        android:textSize="24sp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:onClick="buy_test"
+        android:textAlignment="center"
+        android:id="@+id/tv_paid_tests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="16dp"
+        android:text="Buy Test"
+        android:textAllCaps="false"
+        android:textColor="@color/bg_register"
+        android:textSize="24sp"
+        android:textStyle="normal|italic" />
+
+</LinearLayout>
+
+
+
+
+</LinearLayout>
