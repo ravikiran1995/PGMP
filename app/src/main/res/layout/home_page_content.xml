@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
     android:background="@color/colorAccent"
     android:layout_width="match_parent"
@@ -8,7 +9,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
 
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:ignore="UselessParent">
 
 
     <TextView
@@ -17,7 +19,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Practise Test"
+        android:text="@string/practise_test"
         android:textAllCaps="false"
         android:textColor="@color/bg_register"
         android:textSize="24sp"
@@ -31,7 +33,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Quiz"
+        android:text="@string/quiz"
         android:textAllCaps="false"
         android:textColor="@color/bg_register"
         android:textSize="24sp"
@@ -46,7 +48,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Free Test"
+        android:text="@string/free_test"
         android:textAllCaps="false"
         android:textColor="@color/bg_register"
         android:textSize="24sp"
@@ -59,7 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="16dp"
-        android:text="Buy Test"
+        android:text="@string/buy_test"
         android:textAllCaps="false"
         android:textColor="@color/bg_register"
         android:textSize="24sp"

@@ -58,5 +58,10 @@
     <string name="next">next</string>
     <string name="rationale">rationale</string>
     <string name="previous">previous</string>
+    <string name="buy_test">Buy Test</string>
+    <string name="free_test">Free Test</string>
+    <string name="practise_test">Practise Test</string>
+    <string name="quiz">Quiz</string>
+    <string name="logo_here">logo here</string>
 
 </resources>

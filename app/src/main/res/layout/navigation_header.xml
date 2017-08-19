@@ -5,16 +5,12 @@
     android:layout_height="150dp"
     android:background="@color/colorPrimary">
 
-    <TextView
-        android:id="@+id/tv_user_name"
-        style="@android:style/Widget.DeviceDefault.Light.TextView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="16dp"
-        android:text="@string/user_name"
-        android:textColor="@color/common_google_signin_btn_text_dark_default"
-        android:textSize="25sp"
-        android:textStyle="bold|italic" />
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="150dp"
+        android:fitsSystemWindows="true"
+        android:src="@drawable/acepro"
+        android:layout_margin="24dp"
+        android:contentDescription="@string/logo_here"
+        tools:ignore="ContentDescription" />
 </RelativeLayout>
