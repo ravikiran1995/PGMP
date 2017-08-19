@@ -14,7 +14,6 @@ import android.widget.Button;
 import android.widget.RadioButton;
 import android.widget.RadioGroup;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import com.google.firebase.auth.FirebaseAuth;
 import com.google.firebase.database.DataSnapshot;
@@ -45,7 +44,7 @@ public class QuizActivity extends AppCompatActivity {
     public String rationaletxt;
     public static int score;
     private String ans;
-    public static int count[]=new int[16];
+    public static int count[]=new int[100];
     int milSec=100;
     int sec=60;
     int min=19;
@@ -89,7 +88,7 @@ public class QuizActivity extends AppCompatActivity {
                     min--;
                     sec=60;
                 }
-                clock.setText(min+":"+sec+":"+milSec);
+                clock.setText(min+":"+sec);
             }
 
             @Override
@@ -119,7 +118,7 @@ public class QuizActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                 radioGroup.clearCheck();
-                score = 0;
+               // score = 0;
                 calculateScore();
 
 
@@ -196,7 +195,7 @@ public class QuizActivity extends AppCompatActivity {
 
     public void calculateScore() {
 
-        for(int i=1;i<=10;i++){
+        for(int i=1;i<=50;i++){
             if(count[i]==1){
                 score++;
             }
@@ -276,16 +275,17 @@ public class QuizActivity extends AppCompatActivity {
     }
 
     public void checkAns() {
-        if(choice.equals(ans)){
-            Toast.makeText(QuizActivity.this,"Ur answer is right"  +"  ",Toast.LENGTH_SHORT).show();
 
-            count[quesNo]=10;
+        if(choice.equals(ans)){
+
+            count[quesNo]=1;
         }
         else{
-            Toast.makeText(QuizActivity.this,"Ur answer is wrong" ,Toast.LENGTH_SHORT).show();
 
             count[quesNo]=0;
         }
+
+
     }
 
     @Override

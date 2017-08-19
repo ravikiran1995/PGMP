@@ -112,8 +112,10 @@ navigationView= (NavigationView) findViewById(R.id.navigation_view);
                         break;
                     case R.id.logout:
                         auth.signOut();
+                        startActivity(new Intent(MainActivity.this, LoginActivity.class));
+                        finish();
                         break;
-                    default:
+
                 }
                 return false;
             }
@@ -138,17 +140,17 @@ return super.onOptionsItemSelected(item);
         Intent gotoQuiz = new Intent(MainActivity.this, QuizActivity.class);
         startActivity(gotoQuiz);
 
-        Toast.makeText(getApplicationContext(), "practise now master later", Toast.LENGTH_LONG).show();
+      //  Toast.makeText(getApplicationContext(), "practise now master later", Toast.LENGTH_LONG).show();
 
     }
     public void quiz_test(View view)
     {
-        Toast.makeText(getApplicationContext(), "Scale yourself  now", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "practise today", Toast.LENGTH_LONG).show();
 
     }
     public void free_test(View view)
     {
-        Toast.makeText(getApplicationContext(), "practise made man perfect", Toast.LENGTH_LONG).show();
+        Toast.makeText(getApplicationContext(), "not yet started", Toast.LENGTH_LONG).show();
 
     }
     public void buy_test(View view)
